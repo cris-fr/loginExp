@@ -1,7 +1,7 @@
 :root {
-    --google-color: #db4437;
-    --discord-color: #7289da;
-    --facebook-color: #1877f2;
+    --google-color: #4d1311;
+    --discord-color: #0d1946;
+    --facebook-color: #02316e;
     --background-color: #f0f2f5;
     --text-color: #333;
     --button-text-color: #ffffff;
@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background-color);
+    background-color: var( --text-color);
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
-    padding: 2rem;
+    background-color: #5c5c5c;
+    padding: 5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -34,7 +34,7 @@ body {
 
 h1 {
     text-align: center;
-    color: var(--text-color);
+    color: white;
     margin-bottom: 1.5rem;
 }
 
